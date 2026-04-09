@@ -13,7 +13,7 @@ jobs:
       - name: Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          server: ftp.joshua-entwurf.de
+          server: server: 82.25.96.10
           username: u107363954.entwurf
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./
