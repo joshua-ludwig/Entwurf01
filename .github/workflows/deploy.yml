@@ -18,3 +18,5 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./
           server-dir: /home/u107363954/domains/joshuas-entwurf.de/public_html/
+          protocol: ftps
+          port: 21
