@@ -14,10 +14,9 @@ jobs:
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: 82.25.96.10
-          username: u107363954.entwurf
+          username: u107363954.joshuas
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./
           server-dir: /home/u107363954/domains/joshuas-entwurf.de/public_html/
           protocol: ftps
           port: 21
-          dangerous-clean-slate: true
