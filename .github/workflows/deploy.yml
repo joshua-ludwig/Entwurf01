@@ -20,3 +20,4 @@ jobs:
           server-dir: /home/u107363954/domains/joshuas-entwurf.de/public_html/
           protocol: ftps
           port: 21
+          dangerous-clean-slate: true
