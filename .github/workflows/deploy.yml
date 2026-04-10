@@ -17,4 +17,4 @@ jobs:
           username: u107363954.entwurf
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./
-          server-dir: /home/u107363954/domains/joshua-entwurf.de/public_html/
+          server-dir: /home/u107363954/domains/joshuas-entwurf.de/public_html/
